@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>RVTV</title>
+		<link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#75b8e3">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	</head>
+	<body class="del-scroll">
+
+		<header>
+
+			<!-- Navbar -->
+
+
+			<nav class="navbar bgcolor">
+				<div class="container-fluid">
+					<div class="Logo-and-Text">
+						<a class="navbar text-decoration-none cursor-pointer" href="./index.html">
+							<img src="./images/logo.png" alt="" width="100" height="100" class="d-inline-block align-text-center">
+							<h1 class="p-2 text-white d-inline-block align-text-center main-font fs-3 mb-0 ">RVTV</h1>
+						</a>
+					</div>
+					<div class="Menu-icon">
+						<button id="menu-button" class="navbar-toggler shadow-none btn navbar-brand border-0 menu-open-icon" role="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_menu" aria-controls="navbar_menu" aria-expanded="false" aria-label="Toggle navigation">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256" style="fill:#000000;">
+								<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+									<g transform="scale(5.33333,5.33333)">
+										<path d="M5.5,9c-0.54095,-0.00765 -1.04412,0.27656 -1.31683,0.74381c-0.27271,0.46725 -0.27271,1.04514 0,1.51238c0.27271,0.46725 0.77588,0.75146 1.31683,0.74381h37c0.54095,0.00765 1.04412,-0.27656 1.31683,-0.74381c0.27271,-0.46725 0.27271,-1.04514 0,-1.51238c-0.27271,-0.46725 -0.77588,-0.75146 -1.31683,-0.74381zM5.5,22.5c-0.54095,-0.00765 -1.04412,0.27656 -1.31683,0.74381c-0.27271,0.46725 -0.27271,1.04514 0,1.51238c0.27271,0.46725 0.77588,0.75146 1.31683,0.74381h37c0.54095,0.00765 1.04412,-0.27656 1.31683,-0.74381c0.27271,-0.46725 0.27271,-1.04514 0,-1.51238c-0.27271,-0.46725 -0.77588,-0.75146 -1.31683,-0.74381zM5.5,36c-0.54095,-0.00765 -1.04412,0.27656 -1.31683,0.74381c-0.27271,0.46725 -0.27271,1.04514 0,1.51238c0.27271,0.46725 0.77588,0.75146 1.31683,0.74381h37c0.54095,0.00765 1.04412,-0.27656 1.31683,-0.74381c0.27271,-0.46725 0.27271,-1.04514 0,-1.51238c-0.27271,-0.46725 -0.77588,-0.75146 -1.31683,-0.74381z"></path>
+									</g>
+								</g>
+							</svg>
+						</button>
+					</div>
+					<div class="navbar_menu collapse navbar-collapse navbar-menu-color" id="navbar_menu">
+						<ul class="nav flex-column">
+							<li class="nav-item text-center">
+								<a class="nav-link main-font fs-3 mt-5 mb-3 text-white" href="#aboutus">About Us</a>
+							</li>
+							<li class="nav-item text-center">
+								<a class="nav-link  main-font fs-3 mb-3 text-white" href="#videos">Videos</a>
+							</li>
+							</li>
+							<li class="nav-item text-center">
+								<a class="nav-link  main-font fs-3 mb-3 text-white" href="#prev-episodes">Previous Episodes</a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+		</header>
+
+
+		<main>
+
+
+			<!-- Slider -->
+
+
+			<div class="container align-items-center mt-5 carousel-size">
+				<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner rounded">
+						<div class="carousel-item active">
+							<img src="./images/slider1.jpg" class="d-block w-100" alt="slider1" />
+						</div>
+						<div class="carousel-item">
+							<img src="./images/slider2.jpg" class="d-block w-100" alt="slider2" />
+						</div>
+						<div class="carousel-item">
+							<img src="./images/slider3.jpg" class="d-block w-100" alt="slider3" />
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+
+
+
+			<!-- About Us -->
+
+
+
+			<section id="aboutus"></section>
+
+
+			<div class="bglightcolor">
+				<div class="container-fluid p-5 text-black text-center main-font mt-5 ">
+					<h2>Welcome to RVTV</h2>
+					<p class="pt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</div>
+
+
+
+
+				<section id="videos"></section>
+
+
+				<!-- Weekly Rally -->
+
+
+				<div class="container-fluid p-5 text-black text-center main-font mt-2 ">
+					<h2>Weekly Rally</h2>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<iframe width="100%" height="225" src="https://www.youtube.com/embed/3yU2-T49Cz8?si=ly4brOeVjyDbPIei" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+								<div class="card-body">
+									<p class="card-text">RV in Paradise 2023 Homecoming Promo</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted">09/15/2023</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<iframe width="100%" height="225" src="https://www.youtube.com/embed/-chY84YmkRM?si=rrfa0DVQRtuoRQM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+								<div class="card-body">
+									<p class="card-text">2023 Lisa Nelson 5K</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted">09/15/2023</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<iframe width="100%" height="225" src="https://www.youtube.com/embed/sx-lOmER9T0?si=xInfASkOt6yz6Ga4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+								<div class="card-body">
+									<p class="card-text">2023 Ralston Review in Review</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted">09/15/2023</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+
+
+					<!-- Up to the Valley -->
+
+
+					<div class="container-fluid p-5 text-black text-center main-font">
+						<h2>Up to the Valley</h2>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-4 box-shadow">
+									<iframe width="100%" height="225" src="https://www.youtube.com/embed/FQe2y6yUzUQ?si=bkax6Ujw2_CDxaLw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+									<div class="card-body">
+										<p class="card-text">Up to the Valley - Episode 3</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<small class="text-muted">09/15/2023</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card mb-4 box-shadow">
+									<iframe width="100%" height="225" src="https://www.youtube.com/embed/QUCwPzTZ5cE?si=SCJt1841ZTeTau0Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+									<div class="card-body">
+										<p class="card-text">Up to the Valley - Episode 2</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<small class="text-muted">09/15/2023</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card mb-4 box-shadow">
+									<iframe width="100%" height="225" src="https://www.youtube.com/embed/ayBw5hEi6jA?si=WstFKKZmC5r51vvD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+									<div class="card-body">
+										<p class="card-text">Up to the Valley - Episode 1</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<small class="text-muted">09/15/2023</small>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Social Media Link -->
+
+
+					<hr>
+					<div class="container bglightcolor">
+						<div class="row">
+							<div class="col-md-4">
+									<a href="https://www.instagram.com/rvtv_rvhs/" target="_blank">
+										<img src="./images/insta.png" alt="Insta" class="cursor-pointer mt-3 w-50">
+									</a>
+							</div>
+							<div class="col-md-4">
+									<a href="https://www.youtube.com/@rvtv5286" target="_blank">
+										<img src="./images/youtube.png" alt="Youtube" class="cursor-pointer mt-3 w-50">
+									</a>
+							</div>
+						</div>
+						<hr>
+          </div>
+
+
+						<!-- Previous Episodes -->
+
+          <div class="container bglightcolor">
+			      <section id="prev-episodes"></section>
+						<div class="container-fluid p-5 text-black text-center main-font">
+							<h2>Previous Episodes</h2>
+						</div>
+						<div class="container pb-2">
+							<h3 class="mt-3">Weekly Rally</h3>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/aABPr20shUg" target="_blank">Sept. 9, 2022 - Season 2, Episode 1 - New Year, New Group of Video Artists get things started</a>							
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/qdm4Pa2z3fM" target="_blank"> Sept. 16, 2022 - Season 2, Episode 2 - Gummy Bear Olympics and Golf wins Jeffco Championship </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://www.youtube.com/watch?v=2MtCymQBXxg" target="_blank"> Sept. 22nd, 2022 - Season 2, Episode 3 - Lisa Nelson 5k, Versus, and more </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/lDknHPqLiKU" target="_blank"> Sept. 29th, 2022 - Season 2, Episode 4 - Homecoming Recap </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/YIfF5hLT_S4" target="_blank"> Oct. 7th, 2022 - Season 2, Episode 5 - Homecoming Recap part 2 </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/sPZCY3SbXx4" target="_blank"> Oct. 14th, 2022 - Season 2, Episode 6 - Paper Airplanes, Freshman football, and Fire Drill </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/BxqPWdd6mWQ" target="_blank"> Oct 19th, 2022 - Season 2, Episode 7 - Short Week, Lots of Stuff </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/lMPvuHdpLWA" target="_blank"> Oct. 28th, 2022 - Season 2, Episode 8 - Halloween Spooktacular </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://www.youtube.com/watch?v=gSeOMXLfnKU" target="_blank"> Nov. 4th, 2022 - Season 2, Episode 9 - Radium Girls and Halloween Fashion Show </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/JhnsEhZYqzQ" target="_blank"> Nov. 11th, 2022 - Season 2, Episode 10 - Radium Girls Recap, Veterans Day, and Bad Music </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://www.youtube.com/vhv1o161qk4" target="_blank"> Nov. 18th, 2022 - Season 2, Episode 11 - RV Dance Team, Turkey Noise and Tail, and Jack Schwartz. </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/XqozEhGsHSQ" target="_blank"> Dec. 2nd, 2022 - Season 2, Episode 12 - World Cup, SSN Carnations, & Red Flags </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/Yf9e8_ZvVn4" target="_blank"> Dec. 9th - Season 2, Episode 13 - Winter Sports Hot Start, and Orchestra rocking with Mark Wood </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/hYg-HXPZ37c" target="_blank"> Dec. 15th - Season 2, Episode 14 - Winter Sports, Cameron Holland Toy Drive, and gifts </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/unv_PdgYGAA" target="_blank"> Jan. 6th - Season 2, Episode 15 - Back for Second Semester with a Semester 1 Review and Crayons </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/6eMElPGF6dE" target="_blank"> Jan. 16th - Season 2, Episode 16 - Hot Takes, Debate, and Headrush </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/bTNMsweQv0g" target="_blank"> Jan. 29th - Season 2, Episode 17 - Snow Day Edition & Make-A-Wish Week </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/gJJf4x5gwr8" target="_blank"> Feb. 3rd - Season 2, Episdoe 18 - Make a Wish Recap and More </a>
+							</p>
+							<p class="mt-3 mb-3 main-font-mass" style="text-decoration: underline;"> Feb. 10th - Season 2, Episode 19 - Live Broadcast </p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/Ew0IvutfLRI" target="_blank"> Feb. 16th - Season 2, Episode 20 - The Office Mockumentary </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/SvCDDu2GWE4" target="_blank"> Feb. 24th - Season 2, Episode 21 - Say Yes to the Dress </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/6E_EQhSS-fk" target="_blank"> March 3rd - Season 2, Episode 22 - Winter Sports Wrap UP </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/aWXOguI2_hw" target="_blank"> March 31st - Season 2, Episode 23 - Back from Long Beach </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/pOhKvb2Qu10" target="_blank"> April 6th - Season 2, Episode 24 - RVTV's Version of Mr. Mustang </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/GbuyZzXBUgw" target="_blank"> April 21st - Season 2, Episode 25-Baby Names & Stugo Elected President </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/oJtkoNvsbbQ" target="_blank"> April 27th - Season 2, Episode 26 - Week Without Hate </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/s38E7HycUEc" target="_blank"> May 5 - Season 2, Episode 27 - Fish See Underwater and New Library </a>
+							</p>
+							<p>
+								<a class="mt-3 main-font-mass" href="https://youtu.be/r4uIv02uQmw" target="_blank"> May 12 - Season 2. Episode 28 - Goodbye Seniors </a>
+							</p>
+						</div>
+
+		</main>
+
+		<!-- Footer -->
+
+		<footer class="footer d-flex align-items-center text-center">
+			<div class="container-fluid">
+				<span class="text-muted">Copyright © 2023 RVTV. All rights reserved.</span>
+			</div>
+		</footer>
+
+
+		<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./script.js"></script>
+	</body>
+</html>
