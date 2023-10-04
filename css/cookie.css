@@ -1,0 +1,19 @@
+.cookie-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cookie-fz {
+    font-size: 2rem;
+}
+
+.cookie-fz2 {
+    font-size: 1.5rem;
+}
