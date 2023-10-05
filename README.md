@@ -126,10 +126,3 @@ Node.js is available under the
 external libraries that are available under a variety of licenses.  See
 [LICENSE](https://github.com/nodejs/node/blob/HEAD/LICENSE) for the full
 license text.
-
-
-	 ************Copyright************
-	 * 		Copyright (c) 2023		 *
-	 * 			 David Bach  	 	 *
-	 *		 All Rights Reserved	 *
-	 *********************************
