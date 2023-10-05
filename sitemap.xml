@@ -3,7 +3,7 @@
 
     <!-- Startseite -->
     <url>
-        <!-- <loc>https://www.ihre-website.com/</loc> Change if URL exists -->
+        <!-- <loc>https://www.your-website.com/</loc> //Change if URL exists -->
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>

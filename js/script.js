@@ -1,3 +1,11 @@
+/* 
+	 ************Copyright************
+	 * 		Copyright (c) 2023		 *
+	 * 			 David Bach  	 	 *
+	 *		 All Rights Reserved	 *
+	 *********************************
+*/
+
 window.addEventListener("load", () => {
     if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("../service-worker.js");
@@ -64,9 +72,9 @@ const loadYouTubeIframes = () => {
     const video1Container = document.getElementById('video1-container');
     const video2Container = document.getElementById('video2-container');
     const video3Container = document.getElementById('video3-container');
-    video1Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Fd8S9lnfO6Y?si=ejxGKXPWaC7RcGSp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    video2Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/OemuSVeFdLg?si=6D1Pknkgz111VNrO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    video3Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/3yU2-T49Cz8?si=N4IYV1wRIffaxX-b" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video1Container.innerHTML = `<iframe width="100%" height="225" src="XXXXXXXXX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video2Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Fd8S9lnfO6Y?si=ejxGKXPWaC7RcGSp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video3Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/OemuSVeFdLg?si=6D1Pknkgz111VNrO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 
     /* Up To The Valley */
 
@@ -76,6 +84,25 @@ const loadYouTubeIframes = () => {
     video4Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/FQe2y6yUzUQ?si=DjCAE_HOp07tU7CG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
     video5Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/QUCwPzTZ5cE?si=1T5t1dAkiqX79vjq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
     video6Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/ayBw5hEi6jA?si=mbKPvDDUjG8q7tww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+
+
+    /* Title */
+
+    
+    const video1titel = document.getElementById('video1-title');
+    const video2titel = document.getElementById('video2-title');
+    const video3titel = document.getElementById('video3-title');
+    const video4titel = document.getElementById('video4-title');
+    const video5titel = document.getElementById('video5-title');
+    const video6titel = document.getElementById('video6-title');
+
+    video1titel.textContent = 'XXXXXXXX';
+    video2titel.textContent = 'Weekly Rally Season 3, Episode 1';
+    video3titel.textContent = '2023 Ralston Valley Homecoming Recap';
+
+    video4titel.textContent = 'Up To The Valley - Episode 3';
+    video5titel.textContent = 'Up To The Valley - Episode 2';
+    video6titel.textContent = 'Up To The Valley - Episode 1';
 };
 
 declineCookiesBtn2.addEventListener('click', () => {
