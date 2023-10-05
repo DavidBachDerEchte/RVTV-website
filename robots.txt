@@ -192,4 +192,4 @@ Disallow: /wp-content/themes/theme-name/
 Disallow: /wp-content/plugins/plugin-name/
 Disallow: /wp-content/plugins/plugin-name/file-to-exclude.extension
 
-Sitemap: https://www.your-website.com/sitemap.xml  //Change URL to correct URL if the correct URL exists
+Sitemap: https://www.your-website.com/sitemap.xml

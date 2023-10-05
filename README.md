@@ -36,6 +36,7 @@ Please change the following details in your website's Privacy Policy, Cookie Pol
 	Links for Privacy Policy, Cookie Policy, and Terms and Conditions
 	You can generate these legal documents using iubenda.
 
+
 ## Head
 In the <head> section of your website, ensure that the canonical URL is correctly set as described in the "Index" section above.
 
@@ -47,7 +48,9 @@ In the <head> section of your website, ensure that the canonical URL is correctl
 ### robots.txt
 Open the robots.txt file and update the URL to the correct one if it exists. This file controls search engine crawlers' access to your website.
 
-
+```txt
+Sitemap: https://www.your-website.com/sitemap.xml  //Change URL to correct URL if the correct URL exists
+```
 
 
 
@@ -99,7 +102,7 @@ const loadYouTubeIframes = () => {
     video2titel.textContent = 'Your Video 2 Title';
     video3titel.textContent = 'Your Video 3 Title';
     
-        // ... (repeat the same process for video4, video5, and video6, title4, title 5, title 6)
+    // ... (repeat the same process for video4, video5, and video6, title4, title 5, title 6)
 };
 ```
 
@@ -109,7 +112,7 @@ const loadYouTubeIframes = () => {
 ### Note: 
 Always ensure that your website is configured correctly, and all URLs and information are up to date.
 
-For any further assistance or questions, please contact us at '"your-contact-email@gmail.com"'.
+For any further assistance or questions, please contact us at '"your-contact-email@exmple.com"'.
 
 Thank you for using this template, and best of luck with your website!
 
@@ -124,10 +127,9 @@ external libraries that are available under a variety of licenses.  See
 [LICENSE](https://github.com/nodejs/node/blob/HEAD/LICENSE) for the full
 license text.
 
-<!-- 
+
 	 ************Copyright************
 	 * 		Copyright (c) 2023		 *
 	 * 			 David Bach  	 	 *
 	 *		 All Rights Reserved	 *
 	 *********************************
--->
