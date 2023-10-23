@@ -10,31 +10,6 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter id="87136dc4-55d3-4510-83ab-886f1b71a6d6" name="DDEV" home="docker-compose://DATA" false="false" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="php8.1" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="web" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
-          <PathMappingSettings>
-            <option name="pathMappings">
-              <list>
-                <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html" />
-                <mapping local-root="/home/bach/RVTV-bootstrap/.ddev" remote-root="/mnt/ddev_config" />
-                <mapping local-root="/home/bach/RVTV-bootstrap/.ddev/xhprof" remote-root="/usr/local/bin/xhprof" />
-                <mapping local-root="$APPLICATION_CONFIG_DIR$/scratches" remote-root="/opt/scratches" />
-              </list>
-            </option>
-          </PathMappingSettings>
-          <type_data command="EXEC" />
-          <dockerComposeConfigurationPaths>
-            <item value="$PROJECT_DIR$/.ddev/.ddev-docker-compose-full.yaml" />
-          </dockerComposeConfigurationPaths>
-          <envs pass-parent-envs="false">
-            <env name="COMPOSE_PROJECT_NAME" value="ddev-RVTV" />
-          </envs>
-        </remote_data>
-      </interpreter>
-    </interpreters>
-  </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
