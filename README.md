@@ -120,7 +120,8 @@ Thank you for using this template, and best of luck with your website!
 
 Please replace `"https://www.your-website.com/"` and `"your-contact-email@example.com"` with the actual URLs and contact email address for your website.
 
-### Multilingual Support
+
+## Multilingual Support
 Before deploying this website, ensure that you have customized the content in each `{language}.json` file. Replace the `"RVTV.about-us-paragraph"` key with the desired text in your chosen language. You should manually translate and insert this text into all language files to provide a fully localized experience.
 
 Here's an example in English for your `{language}.json` file:

@@ -8,7 +8,7 @@
 
 const languageMap = {
     'en': 'en',
-    'de': 'de',
+    'de': 'en',
     'fr': 'fr',
     'es': 'es',
     'zh': 'zh',
@@ -37,16 +37,10 @@ function updateContent() {
             document.getElementById('third-nav-item').textContent = data['RVTV.third-nav-item'];
             document.getElementById('switchToEnglish').textContent = data['RVTV.fourth-nav-item'];
             document.getElementById('switchToGerman').textContent = data['RVTV.fifth-nav-item'];
+            document.getElementById('prev-epi').textContent = data['RVTV.third-nav-item'];
 
             document.getElementById('about-us-title').textContent = data['RVTV.about-us-title'];
             document.getElementById('about-us-paragraph').textContent = data['RVTV.about-us-paragraph'];
-
-            document.getElementById('video1-title').textContent = data['RVTV.video-title'];
-            document.getElementById('video2-title').textContent = data['RVTV.video-title'];
-            document.getElementById('video3-title').textContent = data['RVTV.video-title'];
-            document.getElementById('video4-title').textContent = data['RVTV.video-title'];
-            document.getElementById('video5-title').textContent = data['RVTV.video-title'];
-            document.getElementById('video6-title').textContent = data['RVTV.video-title'];
         });
 
 }
