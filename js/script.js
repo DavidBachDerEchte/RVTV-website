@@ -39,7 +39,7 @@ window.addEventListener('offline', () => {
 const acceptCookiesBtn = document.getElementById('acceptcookiebtn');
 const declineCookiesBtn2 = document.getElementById('declinecookiebtn2');
 const myModal = document.getElementById("myModal");
-const myModalInstance = new bootstrap.Modal(myModal, { backdrop: 'static', keyboard: false, mouse: false });
+const myModalInstance = new bootstrap.Modal(myModal, {backdrop: 'static', keyboard: false, mouse: false});
 
 const cookieConsent = document.getElementById('cookieConsent');
 
@@ -72,23 +72,23 @@ const loadYouTubeIframes = () => {
     const video1Container = document.getElementById('video1-container');
     const video2Container = document.getElementById('video2-container');
     const video3Container = document.getElementById('video3-container');
-    video1Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/0l96lS6oWLQ?si=W-C6py2Axvev9XbR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    video2Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Pf0pjZZxrI4?si=eKyDdETB7j08vK8o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    video3Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Fd8S9lnfO6Y?si=ejxGKXPWaC7RcGSp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video1Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/0l96lS6oWLQ?si=W-C6py2Axvev9XbR" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video2Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Pf0pjZZxrI4?si=eKyDdETB7j08vK8o" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video3Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Fd8S9lnfO6Y?si=ejxGKXPWaC7RcGSp" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 
     /* Up To The Valley */
 
     const video4Container = document.getElementById('video4-container');
     const video5Container = document.getElementById('video5-container');
     const video6Container = document.getElementById('video6-container');
-    video4Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/FQe2y6yUzUQ?si=DjCAE_HOp07tU7CG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    video5Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/QUCwPzTZ5cE?si=1T5t1dAkiqX79vjq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    video6Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/ayBw5hEi6jA?si=mbKPvDDUjG8q7tww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video4Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/FQe2y6yUzUQ?si=DjCAE_HOp07tU7CG" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video5Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/QUCwPzTZ5cE?si=1T5t1dAkiqX79vjq" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video6Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/ayBw5hEi6jA?si=mbKPvDDUjG8q7tww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 
 
     /* Title */
 
-    
+
     const video1titel = document.getElementById('video1-title');
     const video2titel = document.getElementById('video2-title');
     const video3titel = document.getElementById('video3-title');

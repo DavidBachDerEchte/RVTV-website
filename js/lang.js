@@ -1,3 +1,11 @@
+/*
+	 ************Copyright************
+	 * 		Copyright (c) 2023		 *
+	 * 			 David Bach  	 	 *
+	 *		 All Rights Reserved	 *
+	 *********************************
+*/
+
 const languageMap = {
     'en': 'en',
     'de': 'de',
@@ -8,11 +16,11 @@ const languageMap = {
     'pt': 'pt',
     'id': 'id',
     'ja': 'ja',
-    'tr': 'tr',
+    'tr': 'tr'
 };
 
 const userLanguage = navigator.language.slice(0, 2);
-selectedLanguage = languageMap[userLanguage] || 'en';
+let selectedLanguage = languageMap[userLanguage] || 'en';
 
 
 function updateContent() {
