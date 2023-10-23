@@ -11,6 +11,7 @@ This README.md file provides essential information and instructions for customiz
 - [sitemap.xml](#sitemapxml)
 - [Instructions](#note)
 - [Youtube-Videos](#youtube-videos)
+- [Multilingual-Support](#multilingual-support)
 - [License](#license)
 
 ---
@@ -118,6 +119,19 @@ Thank you for using this template, and best of luck with your website!
 
 
 Please replace `"https://www.your-website.com/"` and `"your-contact-email@example.com"` with the actual URLs and contact email address for your website.
+
+### Multilingual Support
+Before deploying this website, ensure that you have customized the content in each `{language}.json` file. Replace the `"RVTV.about-us-paragraph"` key with the desired text in your chosen language. You should manually translate and insert this text into all language files to provide a fully localized experience.
+
+Here's an example in English for your `{language}.json` file:
+```json
+{
+  "RVTV.about-us-paragraph": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+}
+```
+
+Replace the content inside `"RVTV.about-us-paragraph"` with the text that matches the language you are translating to. Repeat this process for each supported language, ensuring your website provides a seamless experience for users around the world.
+
 
 ## License
 

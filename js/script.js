@@ -72,9 +72,9 @@ const loadYouTubeIframes = () => {
     const video1Container = document.getElementById('video1-container');
     const video2Container = document.getElementById('video2-container');
     const video3Container = document.getElementById('video3-container');
-    video1Container.innerHTML = `<iframe width="100%" height="225" src="XXXXXXXXX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    video2Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Fd8S9lnfO6Y?si=ejxGKXPWaC7RcGSp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-    video3Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/OemuSVeFdLg?si=6D1Pknkgz111VNrO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video1Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/0l96lS6oWLQ?si=W-C6py2Axvev9XbR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video2Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Pf0pjZZxrI4?si=eKyDdETB7j08vK8o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    video3Container.innerHTML = `<iframe width="100%" height="225" src="https://www.youtube.com/embed/Fd8S9lnfO6Y?si=ejxGKXPWaC7RcGSp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 
     /* Up To The Valley */
 
@@ -96,9 +96,9 @@ const loadYouTubeIframes = () => {
     const video5titel = document.getElementById('video5-title');
     const video6titel = document.getElementById('video6-title');
 
-    video1titel.textContent = 'XXXXXXXX';
-    video2titel.textContent = 'Weekly Rally Season 3, Episode 1';
-    video3titel.textContent = '2023 Ralston Valley Homecoming Recap';
+    video1titel.textContent = 'RVHS Weekly Rally Season 3 Week 3';
+    video2titel.textContent = 'RVHS Weekly Rally Season 3 Week 2';
+    video3titel.textContent = 'Weekly Rally Season 3, Episode 1';
 
     video4titel.textContent = 'Up To The Valley - Episode 3';
     video5titel.textContent = 'Up To The Valley - Episode 2';
