@@ -114,3 +114,32 @@ p {
 .footer {
     height: 60px;
 }
+
+/* Fonts from json */
+
+#about-us-paragraph {
+    font-family: 'Martian Mono', monospace !important;
+    margin-bottom: 0;
+    color: black;
+}
+
+#about-us-title {
+    font-family: 'Martian Mono', monospace !important;
+    margin-bottom: 0;
+    font-size: 2.25rem;
+    color: black;
+}
+
+#prev-epi {
+    font-family: 'Martian Mono', monospace !important;
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: black;
+}
+
+#first-nav-item, #second-nav-item, #third-nav-item {
+    font-family: 'Martian Mono', monospace !important;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+    color: black;
+}

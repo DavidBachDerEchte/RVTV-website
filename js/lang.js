@@ -8,7 +8,7 @@
 
 const languageMap = {
     'en': 'en',
-    'de': 'en',
+    'de': 'de',
     'fr': 'fr',
     'es': 'es',
     'zh': 'zh',
@@ -16,7 +16,8 @@ const languageMap = {
     'pt': 'pt',
     'id': 'id',
     'ja': 'ja',
-    'tr': 'tr'
+    'tr': 'tr',
+    'it': 'it'
 };
 
 const userLanguage = navigator.language.slice(0, 2);
